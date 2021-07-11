@@ -1,0 +1,54 @@
+html, body{
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(20, 5%);
+    grid-template-rows: repeat(20, 5%);
+}
+
+.main-heading{
+    grid-row-start: 3;
+    grid-row-end: 9;
+    grid-column-start: 3;
+    grid-column-end: 9;
+    font-size: 25px;
+}
+
+.sub-text{
+    grid-row-start: 10;
+    grid-column-start: 3;
+    grid-column-end: 9;
+}
+
+.ratings{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 10;
+    grid-column-end: 16;
+}
+
+.review-1{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+
+.review-2{
+    grid-column-start: 7;
+    grid-column-end: 10;
+}
+
+.review-3{
+    grid-column-start: 12;
+    grid-column-end: 15;
+}
+
+.attribution{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    text-align: center;
+}
