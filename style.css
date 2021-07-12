@@ -1,6 +1,19 @@
 html, body{
     height: 100%;
+    margin: 0px;
     font-family: 'Trebuchet MS', sans-serif;
+}
+
+#background-top{
+    position: absolute;
+    z-index: -1;
+}
+
+#background-bottom{
+    position: absolute;
+    z-index: -1;
+    bottom: 0px;
+    right: 0px;
 }
 
 .container{
@@ -15,9 +28,10 @@ html, body{
     grid-row-end: 9;
     grid-column-start: 5;
     grid-column-end: 15;
-    font-size: 25px;
-    line-height: 7vh;
-    font-weight: bolder;
+    font-size: 50px;
+    line-height: 8vh;
+    font-weight: 900;
+    color: #511F50FF;
 }
 
 .sub-text{
@@ -59,13 +73,18 @@ html, body{
 
 .rating-text{
     margin: 4%;
+    position: relative;
+    left: 20px;
+    font-weight: bold;
+    color: #511F50FF;
 }
 
 .reviews{
     background-color: #511F50FF;
-    border-radius: 5px;
+    border-radius: 10px;
     height: fit-content;
     padding: 10%;
+    color: whitesmoke;
 }
 
 .review-1{
@@ -94,11 +113,20 @@ html, body{
 }
 
 .name{
+    font-size: 100%;
     font-weight: bold;
     position: relative;
 }
 
+.verified{
+    font-size: 90%;
+    color: #C279AEFF;
+}
+
 .comment{
+    font-size: 80%;
+    line-height: 3.5vh;
+    color: whitesmoke;
     clear: left;
 }
 
