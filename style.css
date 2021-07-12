@@ -43,6 +43,7 @@ html, body{
 
 .ratings{
     background-color: #F7F2F8FF;
+    border-radius: 10px;
 }
 
 .rating-1{
