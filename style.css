@@ -1,48 +1,105 @@
 html, body{
     height: 100%;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 .container{
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(20, 5%);
-    grid-template-rows: repeat(20, 5%);
+    grid-template-columns: repeat(33, 3%);
+    grid-template-rows: repeat(25, 4%);
 }
 
 .main-heading{
     grid-row-start: 3;
     grid-row-end: 9;
-    grid-column-start: 3;
-    grid-column-end: 9;
+    grid-column-start: 5;
+    grid-column-end: 15;
     font-size: 25px;
+    line-height: 7vh;
+    font-weight: bolder;
 }
 
 .sub-text{
     grid-row-start: 10;
-    grid-column-start: 3;
-    grid-column-end: 9;
+    grid-column-start: 5;
+    grid-column-end: 15;
+    font-size: 15px;
 }
 
 .ratings{
-    grid-row-start: 1;
-    grid-row-end: 2;
-    grid-column-start: 10;
-    grid-column-end: 16;
+    background-color: #F7F2F8FF;
+}
+
+.rating-1{
+    grid-row-start: 4;
+    grid-row-end: 6;
+    grid-column-start: 18;
+    grid-column-end: 29;
+}
+
+.rating-2{
+    grid-row-start: 7;
+    grid-row-end: 9;
+    grid-column-start: 19;
+    grid-column-end: 30;
+}
+
+.rating-3{
+    grid-row-start: 10;
+    grid-row-end: 12;
+    grid-column-start: 20;
+    grid-column-end: 31;
+}
+
+.stars{
+    float: left;
+    margin: 4%;
+}
+
+.rating-text{
+    margin: 4%;
+}
+
+.reviews{
+    background-color: #511F50FF;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 10%;
 }
 
 .review-1{
-    grid-column-start: 2;
-    grid-column-end: 5;
+    grid-column-start: 5;
+    grid-column-end: 13;
+    grid-row-start: 14;
 }
 
 .review-2{
-    grid-column-start: 7;
-    grid-column-end: 10;
+    grid-column-start: 14;
+    grid-column-end: 22;
+    grid-row-start: 15;
 }
 
 .review-3{
-    grid-column-start: 12;
-    grid-column-end: 15;
+    grid-column-start: 23;
+    grid-column-end: 31;
+    grid-row-start: 16;
+}
+
+.reviews img{
+    border-radius: 50%;
+    width: 20%;
+    margin: 0% 10% 5% 0%;
+    float: left;
+}
+
+.name{
+    font-weight: bold;
+    position: relative;
+}
+
+.comment{
+    clear: left;
 }
 
 .attribution{
